@@ -1,9 +1,8 @@
-/* Limiting the width of the main content */
+
 main {
     max-width: 840px;
  }
     
-    /* Styling the aside element */
 
 aside {
   width: 20rem;
@@ -15,24 +14,23 @@ aside {
   text-align: center;
  }
     
-    /* This auto setting ensures that there is no change in the images aspect ratio. */
     aside img {
     width: 200px;
     height: auto;
     }
     
-    /* To not allow existing img CSS selector to affect the new img */
+
     main img {
     width: 150px;
     height: auto;
     }
     
-    /*  Change the existing paragraph padding value to 0 pixels */
+    
     p {
     padding: 0;
     }
     
-    /* Styling the footer */
+    
     footer {
     margin-top: 15px;
     border-top: 1px solid #000;
