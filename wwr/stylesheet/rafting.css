@@ -20,7 +20,15 @@ body {
     --footer-text-color: #ffffff;
   }
   
-  
+  /* Basic styles for the body */
+  body {
+    font-family: 'Roboto', serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+  }
+
   /* Remove underline from social media links */
   .sociallinks a {
     text-decoration: none;
