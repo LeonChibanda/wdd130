@@ -1,5 +1,5 @@
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', serif; }
 
 body {
   font-family: "Roboto", serif;
@@ -7,7 +7,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "width" 100;
+    "wdth" 100;
 }
 
 :root {
@@ -22,14 +22,13 @@ body {
   
   /* Basic styles for the body */
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', serif;
     color: var(--text-color);
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
   }
-  
-  
+
   /* Remove underline from social media links */
   .sociallinks a {
     text-decoration: none;
