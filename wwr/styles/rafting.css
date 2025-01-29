@@ -208,3 +208,20 @@ header nav ul li a {
 }
 
 
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+footer .social-icons img {
+  width: 30px;
+  height: 30px;
+}
