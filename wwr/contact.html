@@ -3,41 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Us page of White Water Rafting Adventure Company">
+    <meta name="description" content="Get in touch with Canada's top rafting company, committed to delivering thrilling, safe adventures on iconic rivers, and ensuring your satisfaction. This page is your space to ask questions, make reservations, and share suggestions to help us improve.">
     <meta name="author" content="Leon Chibanda">
-    <title>About Us | White Water Rafting</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <meta property="og:image" content="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/z-wwr-oars.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>White Water Rafting - Contact Us</title>
 </head>
 <body>
     <header>
         <img src="images/logo.png" alt="White Water Rafting Logo">
-        <h1>White Water Rafting</h1>
-        <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="adventures.html">Trips</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <footer>
-        <nav class="sociallinks">
-                <p>&copy; 2025 White Water Rafting | &#128758; Leon Chibanda &#128758;</p>
-                    <div class="social-icons">
-                        <a href="https://facebook.com">
-                            <img src="images/facebook.svg" alt="Facebook">
-                        </a>
-                        <a href="https://twitter.com">
-                            <img src="images/twitter.svg" alt="Twitter">
-                        </a>
-                        <a href="https://instagram.com">
-                            <img src="images/instagram.svg" alt="Instagram">
-                        </a>
+    <main>
+        <div class="hero">
+            <img src="images/hero2.jpg" alt="it could you">
+            <h1>CONTACT US</h1>
+            <div class="contact-background">
+                <div class="images-container">
+                    <figure class="image-box">
+                        <img src="images/carmen_crewshot.jpg" alt="happy employee">
+                        <figcaption>Carmen crewshot<br>River Guide</figcaption>
+                    </figure>
+                    <figure class="image-box">
+                        <img src="images/AustinBandl.jpg" alt="happy employee">
+                        <figcaption>Austin Bandl<br>Trip Leader</figcaption>
+                    </figure>
+                    <figure class="image-box">
+                        <img src="images/HannahSmith.jpg" alt="happy employee">
+                        <figcaption>Hannah Smith<br>Operations Director</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <section class="form-container">
+            <form>
+                <fieldset>
+                  <legend>Contact Information</legend>
+                  <div class="form-item column2">
+                      <label for="fullname">Full Name:</label>
+                      <input type="text" id="fullname" name="fullname">
                     </div>
+                    <div class="form-item column2">
+                      <label for="useremail">Email: <span class="required">*</span></label>
+                      <input type="email" id="useremail" name="useremail" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                  <legend>We would love to hear from you.</legend>
+                  <div class="column1">
+                    <label>
+                        <input type="radio" name="subject" value="General Inquiry" required> General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="subject" value="Reservation Question"> Reservation Question
+                    </label><br>
+                    <label>
+                        <input type="radio" name="subject" value="Website Suggestion"> Website Suggestion
+                    </label>
+                  </div>
+                    <label for="feedback">Comments/questions</label>
+               <textarea id="feedback" name="feedback" rows="4" placeholder="&#128293;&#10084;&#65039; Have a question? Need adventure tips? We're here for you!&#10084;&#65039;&#128293;Send us a message, and we’ll get back to you in no time! You can also reach us on WhatsApp—just click the icon&#128522;🚀"></textarea>
+                  <div class="column1">
+                      <label for="monthly-letter">Please subscribe me to the monthly newsletter</label>
+                      <input type="checkbox" id="monthly-letter" name="monthly-letter">
+                  </div>
+                </fieldset>
+                <button type="submit">SUBMIT MESSAGE</button>
+            </form>
+            <div class="form-child">
+                <div class="company-details">
+                        <h2><span>OUR COMPANY DETAILS</span></h2>
+                        <p>Saint Ives, BC V0E 1M9, Canada</p>
+                        <p id="phone-number-p"> +125 032 09305 <a href=" https://wa.me/+12503209305"><img src="images/whatsapp.svg" alt="whatsapp-icon" id="whats-icon"></a></p>
+                        <p id="company-email">whiterafting@aquamania.co.za</p>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d321471.8519867958!2d-119.22846711614697!3d50.988453351625154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1739375285877!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="adventure">
+            <h2>Adventure Awaits You!</h2>
+            <div class="images-container">
+                <figure class="image-box">
+                    <img src="images/img1.jpg" alt="One with nature">
+                    <figcaption>Nature</figcaption>
+                </figure>
+                <figure class="image-box">
+                    <img src="images/img2.jpg" alt="Team Work">
+                    <figcaption>Team Adventure!</figcaption>
+                </figure>
+                <figure class="image-box">
+                    <img src="images/img3.jpg" alt="Thrilling Rapids">
+                    <figcaption>Thrilling Rapids</figcaption>
+                </figure>
+                <figure class="image-box">
+                    <img src="images/img4.jpg" alt="All Day Adventure">
+                    <figcaption>Full Day Adventure</figcaption>
+                </figure>
+                <figure class="image-box">
+                    <img src="images/img5.jpg" alt="Happy Rafters">
+                    <figcaption>Happy Rafters</figcaption>
+                </figure>
+            </div>
+          </section>
+    </main>
+    <footer>
+        <a href="images/leonchibanda_contact_page.jpg" id="wireframe-page">WIREFRAME</a>
+        <p>&copy; 2025 White Water Rafting | Leon Chibanda </p>
+       
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
         </nav>
     </footer>
 </body>
