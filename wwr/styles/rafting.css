@@ -68,7 +68,7 @@
   }
   
   .navigation a:hover {
-    color: tomato;
+    color: red;
     font-weight: 700;
     text-decoration: underline;
   }
@@ -484,7 +484,7 @@ footer p{
     }
   
   .required {
-      color: tomato;
+      color: red;
   }
   
   textarea{
@@ -613,7 +613,7 @@ footer p{
 /* Call to Action Button */
 .cta-button {
   display: inline-block;
-  background-color: #ff5c5c;
+  background-color: red;
   padding: 1rem 2rem;
   text-decoration: none;
   color: white;
@@ -625,7 +625,7 @@ footer p{
 }
 
 .cta-button:hover {
-  background-color: #ff4040;
+  background-color: red;
 }
 
 /* Adventure Trips Section */
@@ -707,7 +707,7 @@ td {
 }
 
 a {
-  color: tomato;
+  color: red;
   text-decoration: none;
 }
 
