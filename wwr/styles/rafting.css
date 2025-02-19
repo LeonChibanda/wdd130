@@ -532,10 +532,10 @@ footer p{
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading - Full Width - adding also some green color to compliment green img-and nature */
+/* Heading */
 #newsletter h2 {
-  border: 2px solid #4CAF50; 
-    background-color: #4CAF50; 
+  border: 2px solid var(--primary-color); 
+    background-color: var(--primary-color); 
     color: white; 
     padding: 10px 20px; 
     font-size: 57px; 
